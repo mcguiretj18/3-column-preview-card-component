@@ -1,0 +1,137 @@
+:root {
+    --clr-orange: #E28625;
+    --clr-green-light: #006971;
+    --clr-green-dark: #004140;
+    --clr-white-dark: #f2f2f2;
+    --clr-white: #FFFFFF;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+h2,
+p {
+    margin: 0;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+}
+
+body,
+button {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    background-color: var(--clr-white-dark);
+    color: var(--clr-white);
+}
+
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color: var(--clr-white-dark);
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 924px) {
+    #root {
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+}
+
+.card {
+    max-width: 307px;
+    width: 100%;
+    padding: 3rem;
+    border-radius: 8px;
+}
+
+.icon {
+    margin-bottom: 2.25rem;
+}
+
+.card h2 {
+    margin-bottom: 1.5rem;
+}
+
+.card p {
+    margin-bottom: 5.25rem;
+}
+
+button {
+    background-color: var(--clr-white-dark);
+    border-radius: 25px;
+    padding: 0.75rem 2rem;
+    border: 1px solid var(--clr-white-dark);
+    cursor: pointer;
+}
+
+.sedans {
+    background-color: var(--clr-orange);
+}
+
+.sedans button {
+    color: var(--clr-orange);
+}
+
+.suvs {
+    background-color: var(--clr-green-light);
+}
+
+.suvs button {
+    color: var(--clr-green-light);
+}
+
+.luxury {
+    background-color: var(--clr-green-dark);
+}
+
+.luxury button {
+    color: var(--clr-green-dark);
+}
+
+button:hover {
+    background-color: transparent;
+    color: var(--clr-white-dark);
+}
+
+.attribution {
+    position: sticky;
+    bottom: 0;
+    font-size: 14px;
+    text-align: center;
+    color: var(--clr-green-dark);
+    background-color: var(--clr-white-dark);
+    width: 100%;
+}
+
+.attribution a {
+    color: var(--clr-green-light);
+}
