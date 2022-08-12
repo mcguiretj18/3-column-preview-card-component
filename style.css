@@ -88,6 +88,8 @@ button {
     padding: 0.75rem 2rem;
     border: 1px solid var(--clr-white-dark);
     cursor: pointer;
+    font-size: 15px;
+    line-height: 25px;
 }
 
 .sedans {
