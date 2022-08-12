@@ -17,12 +17,9 @@ p {
 }
 
 body,
-html {
+html,
+#root {
     height: 100%;
-}
-
-body {
-    position: relative;
 }
 
 body,
@@ -62,7 +59,6 @@ p {
     #root {
         flex-direction: row;
         flex-wrap: wrap;
-        height: 100%;
     }
 }
 
