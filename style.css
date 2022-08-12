@@ -65,7 +65,7 @@ p {
 .card {
     max-width: 307px;
     width: 100%;
-    padding: 45px;
+    padding: 3rem;
     border-radius: 8px;
 }
 
