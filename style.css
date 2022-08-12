@@ -85,7 +85,7 @@ p {
 button {
     background-color: var(--clr-white-dark);
     border-radius: 25px;
-    padding: 0.75rem 2rem;
+    padding: 12px 31.5px;
     border: 1px solid var(--clr-white-dark);
     cursor: pointer;
     font-size: 15px;
