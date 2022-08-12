@@ -59,6 +59,7 @@ p {
         flex-direction: row;
         flex-wrap: wrap;
         margin-top: 20px;
+        height: 100%;
     }
 }
 
