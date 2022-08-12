@@ -11,7 +11,7 @@
 }
 
 body,
-h2,
+h1,
 p {
     margin: 0;
 }
@@ -30,7 +30,7 @@ button {
     color: var(--clr-white);
 }
 
-h2 {
+h1 {
     font-family: 'Big Shoulders Display', cursive;
     font-weight: 700;
     color: var(--clr-white-dark);
@@ -73,7 +73,7 @@ p {
     margin-bottom: 2.25rem;
 }
 
-.card h2 {
+.card h1 {
     margin-bottom: 1.5rem;
 }
 
